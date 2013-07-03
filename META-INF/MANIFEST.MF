@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ChrisAspectsPlugin
+Bundle-SymbolicName: AOPPlugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: chris.AOPPlugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.aspectj.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: chris.AOPPlugin.aspects;aspects="FullTrace,InvocationCount"
+Eclipse-SupplementBundle: org.eclipse.jgit, org.eclipse.jgit.pgm
